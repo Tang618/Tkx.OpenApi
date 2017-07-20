@@ -1,0 +1,22 @@
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.deps.json
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.dll
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.pdb
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Common.dll
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Common.pdb
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.AssemblyInfo.cs
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.dll
+E:\deepblue\04 代码管理\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.pdb
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.deps.json
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.dll
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.DbBase.pdb
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Common.dll
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Common.pdb
+G:\Tang\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.csprojResolveAssemblyReference.cache
+G:\Tang\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.AssemblyInfo.cs
+G:\Tang\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.dll
+G:\Tang\Common\Tkx.DbBase\obj\Debug\netcoreapp1.1\Tkx.DbBase.pdb
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+G:\Tang\Common\Tkx.DbBase\bin\Debug\netcoreapp1.1\Tkx.Model.pdb

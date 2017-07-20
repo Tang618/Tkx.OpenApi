@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+navbar-collapse collapse
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+
+
+    <link rel="stylesheet" href="~/css/themes/default/easyui.css" />
+    <link rel="stylesheet" href="~/css/themes/icon.css" />
+
+
+    <script src="~/js/jquery-1.7.2.min.js"></script>
+    <script src="~/js/jquery.easyui.min.js"></script>
+    <script src="~/js/jquery.parser.js"></script>
+    <script src="~/js/JSEasy.js"></script>
+    <script src="~/js/easyloader.js"></script>
+    <script src="~/js/easyui-lang-zh_CN.js"></script>
+
+
+    <environment names="Staging,Production">
+        
+
+
+
+    </environment>
+
+
+  
+
+
+
+
+
+    <script language="javascript" type="text/javascript">
+        @*加载接口属性*@
+        function jie(na, pam) {
+            $("#jiekou").val(na);
+            $("#pam").val(pam);
+        }
+
+     
+      
+
+      
+
+      
+
+       
+    </script>
+</head>
+<body class="easyui-layout">
+
+    @*所有类目 *@
+    <div data-options="region:'east',iconCls:'icon-reload',split:true" title="所有文档" style="width:180px;" id="menu1">
+        <ul class="easyui-tree" data-options="url:'/home/TreeData',method:'get',animate:false,dnd:false" id="menu"></ul>
+
+    </div>
+
+
+    @*顶部菜单 *@
+    <div data-options="region:'north',split:true" title="润铭公司信息平台" style="height:100px;padding:10px;">
+        <p>
+        
+            今日事,今日毙.
+        
+
+        </p>
+    </div>
+
+
+    @*接口列表  *@
+    <div data-options="region:'west',split:true" title="接口列表" style="width: 180px; padding1: 1px; overflow: hidden;">
+        <div class="easyui-accordion" data-options="fit:true,border:false" id="InterfaceList">
+
+
+
+
+            <div title="公共模块Bus" style="padding: 0px; " selected="true">
+                <p onclick="jie('/bus/GetTokenId', 'AppID=And&Secret=25bc573ead874447ad6e441e5a80e140&DeviceID=fe80::5431:a394:2be9:e0f8%17')">
+                    获取令牌
+                </p>
+                <p onclick="jie('/bus/GetArea', 'pid=0&cityId=0&AreaId=0')">
+                    获取省市区信息
+                </p>
+
+                
+                <p onclick="jie('/bus/LogApiList', 'area=all&ApiName=&ApiState=&pageIndex=1&pageSize=10')">
+                    获取接口访问日记
+                </p>
+                <p onclick="jie('/bus/LogApiCountList', 'area=all&pageIndex=1&pageSize=10')">
+                    获取接口统计数据
+                </p>
+            </div>
+            <div title="硬件基础 Hardware" style="padding: 0px;">
+            </div>
+            <div title="车场管理 Parking " style="padding: 0px;">
+
+                <p onclick="jie('/ParKing/Create', 'Id=6DD89FC9-66AD-439F-8483-26C9FD4F40E9&Name=测试车场1&Address=软二望海东门&Phone=1335548775&ImageUrl=http://www.ww.com&Lng=108.66&Lat=44.564564&IsOnline=1&Floors=1&CarportNumber=100&RemCarportNum=0&FixedCarportNumber=20&TempCarportNumber=80&Type=1&LocalParkId=&ParentLocalParkId=A01&CityId=116&CityName=厦门市&AreaId=1092&AreaName=思明区&Platform=0')">
+                    创建停车场信息
+                </p>
+                
+            </div>
+            <div title="商超集体管理 Shop" style="padding: 0px;">
+            </div>
+            <div title="用户中心 Account" style="padding: 0px;">
+            </div>
+            <div title="订单中心 Orders" style="padding: 0px;">
+            </div>
+            <div title="计费中心 Billing" style="padding: 0px;">
+            </div>
+            <div title="财务报表中心 Financial" style="padding: 0px;">
+            </div>
+            <div title="广告中心 Advertising" style="padding: 0px;">
+            </div>
+            <div title="日记中心 Log " style="padding: 0px;">
+            </div>
+            <div title="信息中心 Info" style="padding: 0px;">
+            </div>
+            <div title="支付中心 Pay" style="padding: 0px;">
+            </div>
+
+            <div title="消息模块 Message" style="padding: 0px;">
+            </div>
+          
+
+
+        </div>
+    </div>
+
+
+
+
+    <div data-options="region:'center'" title="停开心开放平台接口调试中心" style="overflow: hidden;">
+        <div id="tt" class="easyui-tabs" data-options="fit:true,border:false">
+            <div title="接口调试"
+                 style="padding: 20px; overflow: hidden;">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

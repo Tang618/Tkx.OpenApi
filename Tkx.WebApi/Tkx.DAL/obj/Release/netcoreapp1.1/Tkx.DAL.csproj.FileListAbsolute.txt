@@ -1,0 +1,13 @@
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.DAL.deps.json
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.DAL.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.DAL.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.Common.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.DbBase.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.Common.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.DbBase.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\bin\Release\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\obj\Release\netcoreapp1.1\Tkx.DAL.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\obj\Release\netcoreapp1.1\Tkx.DAL.AssemblyInfo.cs
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\obj\Release\netcoreapp1.1\Tkx.DAL.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.DAL\obj\Release\netcoreapp1.1\Tkx.DAL.pdb

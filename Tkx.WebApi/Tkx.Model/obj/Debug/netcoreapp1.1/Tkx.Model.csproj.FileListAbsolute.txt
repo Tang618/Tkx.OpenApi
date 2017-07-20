@@ -1,0 +1,21 @@
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.deps.json
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.AssemblyInfo.cs
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心二期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.deps.json
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.AssemblyInfo.cs
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.pdb
+G:\Tang\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.deps.json
+G:\Tang\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+G:\Tang\Tkx.WebApi\Tkx.Model\bin\Debug\netcoreapp1.1\Tkx.Model.pdb
+G:\Tang\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.csprojResolveAssemblyReference.cache
+G:\Tang\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.AssemblyInfo.cs
+G:\Tang\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.dll
+G:\Tang\Tkx.WebApi\Tkx.Model\obj\Debug\netcoreapp1.1\Tkx.Model.pdb

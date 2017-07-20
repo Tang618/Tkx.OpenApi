@@ -1,0 +1,98 @@
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+当前时间:2017/7/3 13:53:18,数据访问层SqlDbHelper函数出现异常,构造发生异常,连接字符串为空:
+
+2017/7/3 13:53:24函数:ExecuteScalar,代码行:432,SQL指令:SELECT ap_id FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND [ap_Time]=@ap_Time ,异常信息:The ConnectionString property has not been initialized.
+
+当前时间:2017/7/3 13:53:50,数据访问层SqlDbHelper函数出现异常,构造发生异常,连接字符串为空:
+
+2017/7/3 13:53:52函数:ExecuteScalar,代码行:432,SQL指令:SELECT ap_id FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND [ap_Time]=@ap_Time ,异常信息:The ConnectionString property has not been initialized.
+
+当前时间:2017/7/3 13:54:00,数据访问层SqlDbHelper函数出现异常,构造发生异常,连接字符串为空:
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+2017/7/3 14:11:54函数:ExecuteScalar,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time())=0,异常信息:“(”附近有语法错误。
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+2017/7/3 14:37:39函数:ExecuteScalar,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:ApId
+
+2017/7/3 14:37:41函数:ExecuteScalar,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:ApId
+
+2017/7/3 14:38:41函数:ExecuteScalar,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:ApId
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+test
+
+2017/7/3 15:13:01函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:Invalid attempt to read when no data is present.
+
+2017/7/3 15:13:01函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+test
+
+2017/7/3 15:18:19函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+test
+
+test
+
+test
+
+2017/7/3 15:21:57函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+2017/7/3 15:23:29函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+2017/7/3 15:23:29函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+2017/7/3 15:23:37函数:ExecuteReader,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:The SqlParameter is already contained by another SqlParameterCollection.
+
+test
+

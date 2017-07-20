@@ -1,0 +1,72 @@
+2017/7/19 16:04:57函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:04:57,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:04:57,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:05:17函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:05:17,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:05:17,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:05:45函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:05:45,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+2017/7/19 16:07:29函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:07:29,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:07:29,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:07:50函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:07:50,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+2017/7/19 16:09:17函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:09:17,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:09:20,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:09:49函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:09:49,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+2017/7/19 16:12:26函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:12:26,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:12:30,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:12:56函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:12:56,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:13:04,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:14:07函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:14:07,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:14:07,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:14:22函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:14:22,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:14:25,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:17:52函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:17:52,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:17:54,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+
+2017/7/19 16:19:08函数:ExecuteReader<T>,代码行:432,SQL指令:SELECT * FROM Tb_ApiCount WHERE [ap_Name]=@ap_Name AND  datediff(day,[ap_Time],@ap_Time)=0,异常信息:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:19:08,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiCount]([ap_Name],[ap_Count],[ap_Time])VALUES(@ap_Name,@ap_Count,@ap_Time),报告的异常是:对象名 'Tb_ApiCount' 无效。
+
+当前时间:2017/7/19 16:19:14,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:对象名 'Tb_ApiLog' 无效。
+

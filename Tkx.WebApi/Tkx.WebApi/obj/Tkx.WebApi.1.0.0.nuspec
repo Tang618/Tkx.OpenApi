@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Tkx.WebApi</id>
+    <version>1.0.0</version>
+    <authors>DeepBlue</authors>
+    <owners>DeepBlue</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp1.1">
+        <dependency id="Tkx.Library" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Tkx.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="1.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Design" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NETCore.App" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.BrowserLink" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer.Design" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="1.1.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ApplicationInsights.AspNetCore" version="2.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.StaticFiles" version="1.1.2" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/netcoreapp1.1/wwwroot/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/demo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/easyloader.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/jquery.easyui.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/site.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/site.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_glass_75_dadada_1x400.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-icons_222222_256x240.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-icons_2e83ff_256x240.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-icons_454545_256x240.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-icons_888888_256x240.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/images/ui-icons_cd0a0a_256x240.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/base/jquery-ui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/accordion.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/calendar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/combo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/combobox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/datagrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/datebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/dialog.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/easyui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/accordion_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/calendar_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/combo_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/datagrid_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/datebox_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/layout_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/linkbutton_bg.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/loading.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/menu_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/messager_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/pagination_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/panel_tools.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/searchbox_button.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/slider_handle.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/spinner_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/tabs_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/Thumbs.db" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/tree_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/images/validatebox_warning.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/layout.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/linkbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/menu.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/menubutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/messager.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/pagination.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/panel.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/progressbar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/propertygrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/searchbox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/slider.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/spinner.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/splitbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/tabs.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/tooltip.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/tree.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/validatebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/black/window.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/accordion.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/calendar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/combo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/combobox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/datagrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/datebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/dialog.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/easyui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/accordion_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/calendar_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/combo_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/datagrid_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/datebox_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/layout_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/linkbutton_bg.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/loading.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/menu_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/messager_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/pagination_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/panel_tools.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/searchbox_button.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/slider_handle.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/spinner_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/tabs_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/Thumbs.db" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/tree_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/images/validatebox_warning.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/layout.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/linkbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/menu.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/menubutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/messager.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/pagination.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/panel.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/progressbar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/propertygrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/searchbox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/slider.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/spinner.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/splitbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/tabs.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/tooltip.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/tree.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/validatebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/bootstrap/window.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/accordion.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/calendar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/combo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/combobox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/datagrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/datebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/dialog.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/easyui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/accordion_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/calendar_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/combo_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/datagrid_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/datebox_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/layout_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/linkbutton_bg.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/loading.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/menu_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/messager_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/pagination_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/panel_tools.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/searchbox_button.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/slider_handle.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/spinner_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/tabs_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/Thumbs.db" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/tree_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/images/validatebox_warning.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/layout.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/linkbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/menu.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/menubutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/messager.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/pagination.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/panel.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/progressbar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/propertygrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/searchbox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/slider.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/spinner.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/splitbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/tabs.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/tooltip.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/tree.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/validatebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/default/window.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/accordion.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/calendar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/combo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/combobox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/datagrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/datebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/dialog.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/easyui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/accordion_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/calendar_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/combo_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/datagrid_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/datebox_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/layout_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/linkbutton_bg.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/loading.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/menu_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/messager_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/pagination_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/panel_tools.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/searchbox_button.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/slider_handle.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/spinner_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/tabs_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/Thumbs.db" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/tree_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/images/validatebox_warning.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/layout.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/linkbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/menu.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/menubutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/messager.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/pagination.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/panel.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/progressbar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/propertygrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/searchbox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/slider.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/spinner.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/splitbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/tabs.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/tooltip.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/tree.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/validatebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/gray/window.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icon.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/back.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/cancel.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/cut.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/edit_add.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/edit_remove.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/filesave.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/help.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/mini_add.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/mini_edit.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/mini_refresh.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/no.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/ok.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/pencil.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/print.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/redo.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/reload.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/search.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/sum.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/tip.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/icons/undo.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/accordion.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/calendar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/combo.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/combobox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/datagrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/datebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/dialog.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/easyui.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/accordion_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/blank.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/calendar_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/combo_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/datagrid_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/datebox_arrow.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/layout_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/linkbutton_bg.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/loading.gif" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/menu_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/messager_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/pagination_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/panel_tools.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/searchbox_button.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/slider_handle.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/spinner_arrows.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/tabs_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/Thumbs.db" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/tree_icons.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/images/validatebox_warning.png" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/layout.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/linkbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/menu.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/menubutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/messager.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/pagination.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/panel.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/progressbar.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/propertygrid.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/searchbox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/slider.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/spinner.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/splitbutton.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/tabs.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/tooltip.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/tree.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/validatebox.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/css/themes/metro/window.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/favicon.ico" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner1.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner2.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner3.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/images/banner4.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/easyloader.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/easyui-lang-zh_CN.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jquery-1.7.2.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jquery-1.7.2.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jquery.easyui.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/jquery.parser.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/JSEasy.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/plugins/jquery.parser.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/site.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/easyloader.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.accordion.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.calendar.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.combobox.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.datebox.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.draggable.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.droppable.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.form.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.linkbutton.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.menu.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.parser.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.progressbar.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.propertygrid.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.resizable.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.slider.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.tabs.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/js/src/jquery.window.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/dist/js/npm.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/bootstrap/LICENSE" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery-validation/LICENSE.md" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/.bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.js" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/dist/jquery.min.map" buildAction="Content" />
+      <files include="any/netcoreapp1.1/wwwroot/lib/jquery/LICENSE.txt" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/Error.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Home/Index.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/Error.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/Layout.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_ApiLayoutPage.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_Layout.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/Shared/_ValidationScriptsPartial.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewImports.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Views/_ViewStart.cshtml" buildAction="Content" />
+      <files include="any/netcoreapp1.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bower.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/bundleconfig.json" buildAction="Content" />
+      <files include="any/netcoreapp1.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bin\Debug\netcoreapp1.1\Tkx.WebApi.runtimeconfig.json" target="lib\netcoreapp1.1\Tkx.WebApi.runtimeconfig.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bin\Debug\netcoreapp1.1\Tkx.WebApi.dll" target="lib\netcoreapp1.1\Tkx.WebApi.dll" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\bootstrap.css" target="content\wwwroot\css\bootstrap.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\bootstrap.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\bootstrap.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\bootstrap.min.css" target="content\wwwroot\css\bootstrap.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\bootstrap.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\bootstrap.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\demo.css" target="content\wwwroot\css\demo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\demo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\demo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\easyloader.js" target="content\wwwroot\css\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\easyloader.js" target="contentFiles\any\netcoreapp1.1\wwwroot\css\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\jquery.easyui.min.js" target="content\wwwroot\css\jquery.easyui.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\jquery.easyui.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\css\jquery.easyui.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\jquery.min.js" target="content\wwwroot\css\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\css\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\site.css" target="content\wwwroot\css\site.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\site.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\site.min.css" target="content\wwwroot\css\site.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\site.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\site.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" target="content\wwwroot\css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" target="content\wwwroot\css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" target="content\wwwroot\css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" target="content\wwwroot\css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" target="content\wwwroot\css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" target="content\wwwroot\css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" target="content\wwwroot\css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" target="content\wwwroot\css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_222222_256x240.png" target="content\wwwroot\css\themes\base\images\ui-icons_222222_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_222222_256x240.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-icons_222222_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_2e83ff_256x240.png" target="content\wwwroot\css\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_2e83ff_256x240.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_454545_256x240.png" target="content\wwwroot\css\themes\base\images\ui-icons_454545_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_454545_256x240.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-icons_454545_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_888888_256x240.png" target="content\wwwroot\css\themes\base\images\ui-icons_888888_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_888888_256x240.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-icons_888888_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_cd0a0a_256x240.png" target="content\wwwroot\css\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\images\ui-icons_cd0a0a_256x240.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\jquery-ui.css" target="content\wwwroot\css\themes\base\jquery-ui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\base\jquery-ui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\base\jquery-ui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\accordion.css" target="content\wwwroot\css\themes\black\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\accordion.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\calendar.css" target="content\wwwroot\css\themes\black\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\calendar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\combo.css" target="content\wwwroot\css\themes\black\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\combo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\combobox.css" target="content\wwwroot\css\themes\black\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\combobox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\datagrid.css" target="content\wwwroot\css\themes\black\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\datagrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\datebox.css" target="content\wwwroot\css\themes\black\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\datebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\dialog.css" target="content\wwwroot\css\themes\black\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\dialog.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\easyui.css" target="content\wwwroot\css\themes\black\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\easyui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\accordion_arrows.png" target="content\wwwroot\css\themes\black\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\accordion_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\blank.gif" target="content\wwwroot\css\themes\black\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\calendar_arrows.png" target="content\wwwroot\css\themes\black\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\calendar_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\combo_arrow.png" target="content\wwwroot\css\themes\black\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\combo_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\datagrid_icons.png" target="content\wwwroot\css\themes\black\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\datagrid_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\datebox_arrow.png" target="content\wwwroot\css\themes\black\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\datebox_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\layout_arrows.png" target="content\wwwroot\css\themes\black\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\layout_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\linkbutton_bg.png" target="content\wwwroot\css\themes\black\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\linkbutton_bg.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\loading.gif" target="content\wwwroot\css\themes\black\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\loading.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\menu_arrows.png" target="content\wwwroot\css\themes\black\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\menu_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\messager_icons.png" target="content\wwwroot\css\themes\black\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\messager_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\pagination_icons.png" target="content\wwwroot\css\themes\black\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\pagination_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\panel_tools.png" target="content\wwwroot\css\themes\black\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\panel_tools.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\searchbox_button.png" target="content\wwwroot\css\themes\black\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\searchbox_button.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\slider_handle.png" target="content\wwwroot\css\themes\black\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\slider_handle.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\spinner_arrows.png" target="content\wwwroot\css\themes\black\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\spinner_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\tabs_icons.png" target="content\wwwroot\css\themes\black\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\tabs_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\Thumbs.db" target="content\wwwroot\css\themes\black\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\Thumbs.db" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\tree_icons.png" target="content\wwwroot\css\themes\black\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\tree_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\validatebox_warning.png" target="content\wwwroot\css\themes\black\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\images\validatebox_warning.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\layout.css" target="content\wwwroot\css\themes\black\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\layout.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\linkbutton.css" target="content\wwwroot\css\themes\black\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\linkbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\menu.css" target="content\wwwroot\css\themes\black\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\menu.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\menubutton.css" target="content\wwwroot\css\themes\black\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\menubutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\messager.css" target="content\wwwroot\css\themes\black\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\messager.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\pagination.css" target="content\wwwroot\css\themes\black\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\pagination.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\panel.css" target="content\wwwroot\css\themes\black\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\panel.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\progressbar.css" target="content\wwwroot\css\themes\black\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\progressbar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\propertygrid.css" target="content\wwwroot\css\themes\black\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\propertygrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\searchbox.css" target="content\wwwroot\css\themes\black\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\searchbox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\slider.css" target="content\wwwroot\css\themes\black\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\slider.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\spinner.css" target="content\wwwroot\css\themes\black\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\spinner.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\splitbutton.css" target="content\wwwroot\css\themes\black\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\splitbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tabs.css" target="content\wwwroot\css\themes\black\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tabs.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tooltip.css" target="content\wwwroot\css\themes\black\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tooltip.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tree.css" target="content\wwwroot\css\themes\black\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\tree.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\validatebox.css" target="content\wwwroot\css\themes\black\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\validatebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\window.css" target="content\wwwroot\css\themes\black\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\black\window.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\black\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\accordion.css" target="content\wwwroot\css\themes\bootstrap\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\accordion.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\calendar.css" target="content\wwwroot\css\themes\bootstrap\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\calendar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\combo.css" target="content\wwwroot\css\themes\bootstrap\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\combo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\combobox.css" target="content\wwwroot\css\themes\bootstrap\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\combobox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\datagrid.css" target="content\wwwroot\css\themes\bootstrap\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\datagrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\datebox.css" target="content\wwwroot\css\themes\bootstrap\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\datebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\dialog.css" target="content\wwwroot\css\themes\bootstrap\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\dialog.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\easyui.css" target="content\wwwroot\css\themes\bootstrap\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\easyui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\accordion_arrows.png" target="content\wwwroot\css\themes\bootstrap\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\accordion_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\blank.gif" target="content\wwwroot\css\themes\bootstrap\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\calendar_arrows.png" target="content\wwwroot\css\themes\bootstrap\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\calendar_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\combo_arrow.png" target="content\wwwroot\css\themes\bootstrap\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\combo_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\datagrid_icons.png" target="content\wwwroot\css\themes\bootstrap\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\datagrid_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\datebox_arrow.png" target="content\wwwroot\css\themes\bootstrap\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\datebox_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\layout_arrows.png" target="content\wwwroot\css\themes\bootstrap\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\layout_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\linkbutton_bg.png" target="content\wwwroot\css\themes\bootstrap\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\linkbutton_bg.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\loading.gif" target="content\wwwroot\css\themes\bootstrap\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\loading.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\menu_arrows.png" target="content\wwwroot\css\themes\bootstrap\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\menu_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\messager_icons.png" target="content\wwwroot\css\themes\bootstrap\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\messager_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\pagination_icons.png" target="content\wwwroot\css\themes\bootstrap\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\pagination_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\panel_tools.png" target="content\wwwroot\css\themes\bootstrap\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\panel_tools.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\searchbox_button.png" target="content\wwwroot\css\themes\bootstrap\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\searchbox_button.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\slider_handle.png" target="content\wwwroot\css\themes\bootstrap\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\slider_handle.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\spinner_arrows.png" target="content\wwwroot\css\themes\bootstrap\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\spinner_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\tabs_icons.png" target="content\wwwroot\css\themes\bootstrap\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\tabs_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\Thumbs.db" target="content\wwwroot\css\themes\bootstrap\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\Thumbs.db" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\tree_icons.png" target="content\wwwroot\css\themes\bootstrap\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\tree_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\validatebox_warning.png" target="content\wwwroot\css\themes\bootstrap\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\images\validatebox_warning.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\layout.css" target="content\wwwroot\css\themes\bootstrap\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\layout.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\linkbutton.css" target="content\wwwroot\css\themes\bootstrap\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\linkbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\menu.css" target="content\wwwroot\css\themes\bootstrap\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\menu.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\menubutton.css" target="content\wwwroot\css\themes\bootstrap\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\menubutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\messager.css" target="content\wwwroot\css\themes\bootstrap\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\messager.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\pagination.css" target="content\wwwroot\css\themes\bootstrap\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\pagination.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\panel.css" target="content\wwwroot\css\themes\bootstrap\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\panel.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\progressbar.css" target="content\wwwroot\css\themes\bootstrap\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\progressbar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\propertygrid.css" target="content\wwwroot\css\themes\bootstrap\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\propertygrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\searchbox.css" target="content\wwwroot\css\themes\bootstrap\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\searchbox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\slider.css" target="content\wwwroot\css\themes\bootstrap\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\slider.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\spinner.css" target="content\wwwroot\css\themes\bootstrap\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\spinner.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\splitbutton.css" target="content\wwwroot\css\themes\bootstrap\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\splitbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tabs.css" target="content\wwwroot\css\themes\bootstrap\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tabs.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tooltip.css" target="content\wwwroot\css\themes\bootstrap\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tooltip.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tree.css" target="content\wwwroot\css\themes\bootstrap\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\tree.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\validatebox.css" target="content\wwwroot\css\themes\bootstrap\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\validatebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\window.css" target="content\wwwroot\css\themes\bootstrap\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\bootstrap\window.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\bootstrap\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\accordion.css" target="content\wwwroot\css\themes\default\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\accordion.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\calendar.css" target="content\wwwroot\css\themes\default\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\calendar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\combo.css" target="content\wwwroot\css\themes\default\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\combo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\combobox.css" target="content\wwwroot\css\themes\default\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\combobox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\datagrid.css" target="content\wwwroot\css\themes\default\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\datagrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\datebox.css" target="content\wwwroot\css\themes\default\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\datebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\dialog.css" target="content\wwwroot\css\themes\default\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\dialog.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\easyui.css" target="content\wwwroot\css\themes\default\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\easyui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\accordion_arrows.png" target="content\wwwroot\css\themes\default\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\accordion_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\blank.gif" target="content\wwwroot\css\themes\default\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\calendar_arrows.png" target="content\wwwroot\css\themes\default\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\calendar_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\combo_arrow.png" target="content\wwwroot\css\themes\default\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\combo_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\datagrid_icons.png" target="content\wwwroot\css\themes\default\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\datagrid_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\datebox_arrow.png" target="content\wwwroot\css\themes\default\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\datebox_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\layout_arrows.png" target="content\wwwroot\css\themes\default\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\layout_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\linkbutton_bg.png" target="content\wwwroot\css\themes\default\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\linkbutton_bg.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\loading.gif" target="content\wwwroot\css\themes\default\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\loading.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\menu_arrows.png" target="content\wwwroot\css\themes\default\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\menu_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\messager_icons.png" target="content\wwwroot\css\themes\default\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\messager_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\pagination_icons.png" target="content\wwwroot\css\themes\default\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\pagination_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\panel_tools.png" target="content\wwwroot\css\themes\default\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\panel_tools.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\searchbox_button.png" target="content\wwwroot\css\themes\default\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\searchbox_button.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\slider_handle.png" target="content\wwwroot\css\themes\default\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\slider_handle.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\spinner_arrows.png" target="content\wwwroot\css\themes\default\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\spinner_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\tabs_icons.png" target="content\wwwroot\css\themes\default\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\tabs_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\Thumbs.db" target="content\wwwroot\css\themes\default\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\Thumbs.db" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\tree_icons.png" target="content\wwwroot\css\themes\default\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\tree_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\validatebox_warning.png" target="content\wwwroot\css\themes\default\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\images\validatebox_warning.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\layout.css" target="content\wwwroot\css\themes\default\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\layout.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\linkbutton.css" target="content\wwwroot\css\themes\default\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\linkbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\menu.css" target="content\wwwroot\css\themes\default\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\menu.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\menubutton.css" target="content\wwwroot\css\themes\default\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\menubutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\messager.css" target="content\wwwroot\css\themes\default\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\messager.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\pagination.css" target="content\wwwroot\css\themes\default\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\pagination.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\panel.css" target="content\wwwroot\css\themes\default\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\panel.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\progressbar.css" target="content\wwwroot\css\themes\default\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\progressbar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\propertygrid.css" target="content\wwwroot\css\themes\default\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\propertygrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\searchbox.css" target="content\wwwroot\css\themes\default\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\searchbox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\slider.css" target="content\wwwroot\css\themes\default\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\slider.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\spinner.css" target="content\wwwroot\css\themes\default\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\spinner.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\splitbutton.css" target="content\wwwroot\css\themes\default\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\splitbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tabs.css" target="content\wwwroot\css\themes\default\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tabs.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tooltip.css" target="content\wwwroot\css\themes\default\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tooltip.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tree.css" target="content\wwwroot\css\themes\default\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\tree.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\validatebox.css" target="content\wwwroot\css\themes\default\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\validatebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\window.css" target="content\wwwroot\css\themes\default\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\default\window.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\default\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\accordion.css" target="content\wwwroot\css\themes\gray\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\accordion.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\calendar.css" target="content\wwwroot\css\themes\gray\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\calendar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\combo.css" target="content\wwwroot\css\themes\gray\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\combo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\combobox.css" target="content\wwwroot\css\themes\gray\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\combobox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\datagrid.css" target="content\wwwroot\css\themes\gray\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\datagrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\datebox.css" target="content\wwwroot\css\themes\gray\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\datebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\dialog.css" target="content\wwwroot\css\themes\gray\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\dialog.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\easyui.css" target="content\wwwroot\css\themes\gray\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\easyui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\accordion_arrows.png" target="content\wwwroot\css\themes\gray\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\accordion_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\blank.gif" target="content\wwwroot\css\themes\gray\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\calendar_arrows.png" target="content\wwwroot\css\themes\gray\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\calendar_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\combo_arrow.png" target="content\wwwroot\css\themes\gray\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\combo_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\datagrid_icons.png" target="content\wwwroot\css\themes\gray\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\datagrid_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\datebox_arrow.png" target="content\wwwroot\css\themes\gray\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\datebox_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\layout_arrows.png" target="content\wwwroot\css\themes\gray\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\layout_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\linkbutton_bg.png" target="content\wwwroot\css\themes\gray\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\linkbutton_bg.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\loading.gif" target="content\wwwroot\css\themes\gray\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\loading.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\menu_arrows.png" target="content\wwwroot\css\themes\gray\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\menu_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\messager_icons.png" target="content\wwwroot\css\themes\gray\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\messager_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\pagination_icons.png" target="content\wwwroot\css\themes\gray\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\pagination_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\panel_tools.png" target="content\wwwroot\css\themes\gray\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\panel_tools.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\searchbox_button.png" target="content\wwwroot\css\themes\gray\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\searchbox_button.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\slider_handle.png" target="content\wwwroot\css\themes\gray\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\slider_handle.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\spinner_arrows.png" target="content\wwwroot\css\themes\gray\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\spinner_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\tabs_icons.png" target="content\wwwroot\css\themes\gray\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\tabs_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\Thumbs.db" target="content\wwwroot\css\themes\gray\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\Thumbs.db" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\tree_icons.png" target="content\wwwroot\css\themes\gray\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\tree_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\validatebox_warning.png" target="content\wwwroot\css\themes\gray\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\images\validatebox_warning.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\layout.css" target="content\wwwroot\css\themes\gray\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\layout.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\linkbutton.css" target="content\wwwroot\css\themes\gray\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\linkbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\menu.css" target="content\wwwroot\css\themes\gray\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\menu.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\menubutton.css" target="content\wwwroot\css\themes\gray\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\menubutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\messager.css" target="content\wwwroot\css\themes\gray\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\messager.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\pagination.css" target="content\wwwroot\css\themes\gray\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\pagination.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\panel.css" target="content\wwwroot\css\themes\gray\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\panel.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\progressbar.css" target="content\wwwroot\css\themes\gray\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\progressbar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\propertygrid.css" target="content\wwwroot\css\themes\gray\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\propertygrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\searchbox.css" target="content\wwwroot\css\themes\gray\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\searchbox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\slider.css" target="content\wwwroot\css\themes\gray\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\slider.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\spinner.css" target="content\wwwroot\css\themes\gray\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\spinner.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\splitbutton.css" target="content\wwwroot\css\themes\gray\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\splitbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tabs.css" target="content\wwwroot\css\themes\gray\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tabs.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tooltip.css" target="content\wwwroot\css\themes\gray\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tooltip.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tree.css" target="content\wwwroot\css\themes\gray\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\tree.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\validatebox.css" target="content\wwwroot\css\themes\gray\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\validatebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\window.css" target="content\wwwroot\css\themes\gray\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\gray\window.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\gray\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icon.css" target="content\wwwroot\css\themes\icon.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icon.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icon.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\back.png" target="content\wwwroot\css\themes\icons\back.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\back.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\back.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\blank.gif" target="content\wwwroot\css\themes\icons\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\cancel.png" target="content\wwwroot\css\themes\icons\cancel.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\cancel.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\cancel.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\cut.png" target="content\wwwroot\css\themes\icons\cut.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\cut.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\cut.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\edit_add.png" target="content\wwwroot\css\themes\icons\edit_add.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\edit_add.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\edit_add.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\edit_remove.png" target="content\wwwroot\css\themes\icons\edit_remove.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\edit_remove.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\edit_remove.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\filesave.png" target="content\wwwroot\css\themes\icons\filesave.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\filesave.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\filesave.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\help.png" target="content\wwwroot\css\themes\icons\help.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\help.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\help.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_add.png" target="content\wwwroot\css\themes\icons\mini_add.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_add.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\mini_add.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_edit.png" target="content\wwwroot\css\themes\icons\mini_edit.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_edit.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\mini_edit.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_refresh.png" target="content\wwwroot\css\themes\icons\mini_refresh.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\mini_refresh.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\mini_refresh.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\no.png" target="content\wwwroot\css\themes\icons\no.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\no.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\no.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\ok.png" target="content\wwwroot\css\themes\icons\ok.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\ok.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\ok.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\pencil.png" target="content\wwwroot\css\themes\icons\pencil.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\pencil.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\pencil.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\print.png" target="content\wwwroot\css\themes\icons\print.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\print.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\print.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\redo.png" target="content\wwwroot\css\themes\icons\redo.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\redo.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\redo.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\reload.png" target="content\wwwroot\css\themes\icons\reload.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\reload.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\reload.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\search.png" target="content\wwwroot\css\themes\icons\search.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\search.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\search.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\sum.png" target="content\wwwroot\css\themes\icons\sum.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\sum.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\sum.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\tip.png" target="content\wwwroot\css\themes\icons\tip.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\tip.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\tip.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\undo.png" target="content\wwwroot\css\themes\icons\undo.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\icons\undo.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\icons\undo.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\accordion.css" target="content\wwwroot\css\themes\metro\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\accordion.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\accordion.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\calendar.css" target="content\wwwroot\css\themes\metro\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\calendar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\calendar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\combo.css" target="content\wwwroot\css\themes\metro\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\combo.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\combo.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\combobox.css" target="content\wwwroot\css\themes\metro\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\combobox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\combobox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\datagrid.css" target="content\wwwroot\css\themes\metro\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\datagrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\datagrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\datebox.css" target="content\wwwroot\css\themes\metro\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\datebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\datebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\dialog.css" target="content\wwwroot\css\themes\metro\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\dialog.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\dialog.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\easyui.css" target="content\wwwroot\css\themes\metro\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\easyui.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\easyui.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\accordion_arrows.png" target="content\wwwroot\css\themes\metro\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\accordion_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\accordion_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\blank.gif" target="content\wwwroot\css\themes\metro\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\blank.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\blank.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\calendar_arrows.png" target="content\wwwroot\css\themes\metro\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\calendar_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\calendar_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\combo_arrow.png" target="content\wwwroot\css\themes\metro\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\combo_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\combo_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\datagrid_icons.png" target="content\wwwroot\css\themes\metro\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\datagrid_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\datagrid_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\datebox_arrow.png" target="content\wwwroot\css\themes\metro\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\datebox_arrow.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\datebox_arrow.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\layout_arrows.png" target="content\wwwroot\css\themes\metro\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\layout_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\layout_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\linkbutton_bg.png" target="content\wwwroot\css\themes\metro\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\linkbutton_bg.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\linkbutton_bg.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\loading.gif" target="content\wwwroot\css\themes\metro\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\loading.gif" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\loading.gif" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\menu_arrows.png" target="content\wwwroot\css\themes\metro\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\menu_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\menu_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\messager_icons.png" target="content\wwwroot\css\themes\metro\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\messager_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\messager_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\pagination_icons.png" target="content\wwwroot\css\themes\metro\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\pagination_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\pagination_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\panel_tools.png" target="content\wwwroot\css\themes\metro\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\panel_tools.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\panel_tools.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\searchbox_button.png" target="content\wwwroot\css\themes\metro\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\searchbox_button.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\searchbox_button.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\slider_handle.png" target="content\wwwroot\css\themes\metro\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\slider_handle.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\slider_handle.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\spinner_arrows.png" target="content\wwwroot\css\themes\metro\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\spinner_arrows.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\spinner_arrows.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\tabs_icons.png" target="content\wwwroot\css\themes\metro\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\tabs_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\tabs_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\Thumbs.db" target="content\wwwroot\css\themes\metro\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\Thumbs.db" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\Thumbs.db" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\tree_icons.png" target="content\wwwroot\css\themes\metro\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\tree_icons.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\tree_icons.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\validatebox_warning.png" target="content\wwwroot\css\themes\metro\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\images\validatebox_warning.png" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\images\validatebox_warning.png" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\layout.css" target="content\wwwroot\css\themes\metro\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\layout.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\layout.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\linkbutton.css" target="content\wwwroot\css\themes\metro\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\linkbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\linkbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\menu.css" target="content\wwwroot\css\themes\metro\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\menu.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\menu.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\menubutton.css" target="content\wwwroot\css\themes\metro\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\menubutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\menubutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\messager.css" target="content\wwwroot\css\themes\metro\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\messager.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\messager.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\pagination.css" target="content\wwwroot\css\themes\metro\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\pagination.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\pagination.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\panel.css" target="content\wwwroot\css\themes\metro\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\panel.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\panel.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\progressbar.css" target="content\wwwroot\css\themes\metro\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\progressbar.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\progressbar.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\propertygrid.css" target="content\wwwroot\css\themes\metro\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\propertygrid.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\propertygrid.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\searchbox.css" target="content\wwwroot\css\themes\metro\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\searchbox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\searchbox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\slider.css" target="content\wwwroot\css\themes\metro\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\slider.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\slider.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\spinner.css" target="content\wwwroot\css\themes\metro\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\spinner.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\spinner.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\splitbutton.css" target="content\wwwroot\css\themes\metro\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\splitbutton.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\splitbutton.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tabs.css" target="content\wwwroot\css\themes\metro\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tabs.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\tabs.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tooltip.css" target="content\wwwroot\css\themes\metro\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tooltip.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\tooltip.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tree.css" target="content\wwwroot\css\themes\metro\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\tree.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\tree.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\validatebox.css" target="content\wwwroot\css\themes\metro\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\validatebox.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\validatebox.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\window.css" target="content\wwwroot\css\themes\metro\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\css\themes\metro\window.css" target="contentFiles\any\netcoreapp1.1\wwwroot\css\themes\metro\window.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\favicon.ico" target="content\wwwroot\favicon.ico" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\favicon.ico" target="contentFiles\any\netcoreapp1.1\wwwroot\favicon.ico" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner1.svg" target="content\wwwroot\images\banner1.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner1.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner1.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner2.svg" target="content\wwwroot\images\banner2.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner2.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner2.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner3.svg" target="content\wwwroot\images\banner3.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner3.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner3.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner4.svg" target="content\wwwroot\images\banner4.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\images\banner4.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\images\banner4.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\easyloader.js" target="content\wwwroot\js\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\easyloader.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\easyui-lang-zh_CN.js" target="content\wwwroot\js\easyui-lang-zh_CN.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\easyui-lang-zh_CN.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\easyui-lang-zh_CN.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery-1.7.2.js" target="content\wwwroot\js\jquery-1.7.2.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery-1.7.2.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jquery-1.7.2.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery-1.7.2.min.js" target="content\wwwroot\js\jquery-1.7.2.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery-1.7.2.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jquery-1.7.2.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.easyui.min.js" target="content\wwwroot\js\jquery.easyui.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.easyui.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jquery.easyui.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.min.js" target="content\wwwroot\js\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.parser.js" target="content\wwwroot\js\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\jquery.parser.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\JSEasy.js" target="content\wwwroot\js\JSEasy.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\JSEasy.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\JSEasy.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\plugins\jquery.parser.js" target="content\wwwroot\js\plugins\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\plugins\jquery.parser.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\plugins\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\site.js" target="content\wwwroot\js\site.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\site.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\site.min.js" target="content\wwwroot\js\site.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\site.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\site.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\easyloader.js" target="content\wwwroot\js\src\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\easyloader.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\easyloader.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.accordion.js" target="content\wwwroot\js\src\jquery.accordion.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.accordion.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.accordion.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.calendar.js" target="content\wwwroot\js\src\jquery.calendar.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.calendar.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.calendar.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.combobox.js" target="content\wwwroot\js\src\jquery.combobox.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.combobox.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.combobox.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.datebox.js" target="content\wwwroot\js\src\jquery.datebox.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.datebox.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.datebox.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.draggable.js" target="content\wwwroot\js\src\jquery.draggable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.draggable.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.draggable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.droppable.js" target="content\wwwroot\js\src\jquery.droppable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.droppable.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.droppable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.form.js" target="content\wwwroot\js\src\jquery.form.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.form.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.form.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.linkbutton.js" target="content\wwwroot\js\src\jquery.linkbutton.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.linkbutton.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.linkbutton.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.menu.js" target="content\wwwroot\js\src\jquery.menu.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.menu.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.menu.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.parser.js" target="content\wwwroot\js\src\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.parser.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.parser.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.progressbar.js" target="content\wwwroot\js\src\jquery.progressbar.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.progressbar.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.progressbar.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.propertygrid.js" target="content\wwwroot\js\src\jquery.propertygrid.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.propertygrid.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.propertygrid.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.resizable.js" target="content\wwwroot\js\src\jquery.resizable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.resizable.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.resizable.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.slider.js" target="content\wwwroot\js\src\jquery.slider.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.slider.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.slider.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.tabs.js" target="content\wwwroot\js\src\jquery.tabs.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.tabs.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.tabs.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.window.js" target="content\wwwroot\js\src\jquery.window.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\js\src\jquery.window.js" target="contentFiles\any\netcoreapp1.1\wwwroot\js\src\jquery.window.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\.bower.json" target="content\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="content\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="content\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="content\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\npm.js" target="content\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\dist\js\npm.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\LICENSE" target="content\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\bootstrap\LICENSE" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\bootstrap\LICENSE" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="content\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="content\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\.bower.json" target="content\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="content\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="content\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\LICENSE.md" target="content\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery-validation\LICENSE.md" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\.bower.json" target="content\wwwroot\lib\jquery\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\.bower.json" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\.bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.js" target="content\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.min.js" target="content\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.min.js" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.min.map" target="content\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\dist\jquery.min.map" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\LICENSE.txt" target="content\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\wwwroot\lib\jquery\LICENSE.txt" target="contentFiles\any\netcoreapp1.1\wwwroot\lib\jquery\LICENSE.txt" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Home\Error.cshtml" target="content\Views\Home\Error.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Home\Error.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\Error.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Home\Index.cshtml" target="content\Views\Home\Index.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Home\Index.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Home\Index.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\Error.cshtml" target="content\Views\Shared\Error.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\Error.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\Error.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\Layout.cshtml" target="content\Views\Shared\Layout.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\Layout.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\Layout.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_ApiLayoutPage.cshtml" target="content\Views\Shared\_ApiLayoutPage.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_ApiLayoutPage.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_ApiLayoutPage.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_Layout.cshtml" target="content\Views\Shared\_Layout.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_Layout.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_Layout.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_ValidationScriptsPartial.cshtml" target="content\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\Shared\_ValidationScriptsPartial.cshtml" target="contentFiles\any\netcoreapp1.1\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\_ViewImports.cshtml" target="content\Views\_ViewImports.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\_ViewImports.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewImports.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\_ViewStart.cshtml" target="content\Views\_ViewStart.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Views\_ViewStart.cshtml" target="contentFiles\any\netcoreapp1.1\Views\_ViewStart.cshtml" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\appsettings.Development.json" target="contentFiles\any\netcoreapp1.1\appsettings.Development.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\appsettings.json" target="content\appsettings.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\appsettings.json" target="contentFiles\any\netcoreapp1.1\appsettings.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bower.json" target="content\bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bower.json" target="contentFiles\any\netcoreapp1.1\bower.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bundleconfig.json" target="content\bundleconfig.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\bundleconfig.json" target="contentFiles\any\netcoreapp1.1\bundleconfig.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.WebApi\Properties\launchSettings.json" target="contentFiles\any\netcoreapp1.1\Properties\launchSettings.json" />
+  </files>
+</package>

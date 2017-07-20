@@ -1,0 +1,16 @@
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.deps.json
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.AssemblyInfo.cs
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.pdb
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.deps.json
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.dll
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\bin\Debug\netcoreapp1.1\Tkx.IBusiness.pdb
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.csprojResolveAssemblyReference.cache
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.AssemblyInfo.cs
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.dll
+G:\Tang\Tkx.WebApi\Tkx.IBusiness\obj\Debug\netcoreapp1.1\Tkx.IBusiness.pdb

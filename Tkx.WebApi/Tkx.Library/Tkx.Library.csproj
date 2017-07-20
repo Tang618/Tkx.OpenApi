@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Tkx.Common\Tkx.Common.csproj" />
+    <ProjectReference Include="..\..\Common\Tkx.DbBase\Tkx.DbBase.csproj" />
+    <ProjectReference Include="..\Tkx.DAL\Tkx.DAL.csproj" />
+    <ProjectReference Include="..\Tkx.IBusiness\Tkx.IBusiness.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "TestApi";
+    Layout = "~/Views/Shared/_ApiLayoutPage.cshtml"; 
+}
+
+
+<script language="jscript" type="text/jscript">
+
+
+    //特殊方法获取令牌
+    function TestPost() {
+        $.get("/api/bus/GetTokenID", { AppID:'and',AppKey:'cf0cf1b9b5de40c5b7b72d0b349d577d'}, function (data) { 
+            $("#Tokenid").val(data);
+        });
+    }
+
+
+
+    ///获取令牌
+    function GetToken() {
+
+        $.post("/home/GetToken", function (data) {
+            $("#Tokenid").val(data);
+        });
+    } ;
+
+
+    ///加密测试
+    function CreateKey() {
+        var Tokenid = $('#Tokenid').val();
+        var pa = $('#pam').val();
+        var jiekou = $('#jiekou').val();
+
+        $.post("/home/CreateKey", { Tokenid: Tokenid, jiekou: jiekou, parm: pa, Tokenid: Tokenid }, function (data) {
+            $("#BodyTest").val(data);
+        });
+    }
+
+
+    ///模拟提交
+     function Tpost() {
+
+        var Tokenid = $('#Tokenid').val();
+
+        var pa = $('#pam').val();
+
+        var na = $("#jiekou").val();
+
+
+
+        $.post("/home/Tpost", { name: na, parm: pa, Tokenid: Tokenid }, function (data) {
+            $("#BodyTest").val(data);
+        });
+    }
+
+
+
+</script>
+ 
+<p onclick="TestPost()">测试测试测试测试测试测试</p>
+账号  : @Html.TextBox("admin")    <br />
+密码   : @Html.TextBox("pass")    <br />
+令牌: @Html.TextBox("Tokenid")    <a href="#" class="easyui-linkbutton" onclick="GetToken()">获取令牌</a>  &nbsp;&nbsp;&nbsp;&nbsp;
+ @*<a href="#" class="easyui-linkbutton" plain="false" onclick="login2()"> 令牌</a> *@  <br />
+
+接口: <input type="text" id="jiekou" name="jiekou" size="120" />  <br />
+参数:
+<textarea rows="8" cols="100" name="pam" id="pam"></textarea>
+
+<br /><br />
+<br />
+
+
+<a href="#" class="easyui-linkbutton" onclick="CreateKey()" plain="false">加密测试</a>
+<a href="#" class="easyui-linkbutton" onclick="Tpost()" plain="false">模拟提交</a> 
+@*<a href="#" class="easyui-linkbutton" onclick="CreateKey()" plain="false">生成密码</a>*@
+@*<a href="#" class="easyui-linkbutton" onclick="TJSON()" plain="false">模拟JSON提交</a>*@
+
+
+<br /><br /><br /><br />
+当前的 @ViewData["time"]  对应的  @ViewData["stamp"]
+<br />
+<br />
+<br />
+
+<textarea rows="2" name="BodyTest" id="BodyTest" cols="20" style="width: 428px; height: 221px;"></textarea>
+

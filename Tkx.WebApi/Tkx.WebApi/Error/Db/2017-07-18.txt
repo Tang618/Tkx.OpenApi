@@ -1,0 +1,15 @@
+当前时间:2017/7/18 19:52:00,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [EnterParkRecord]([Id],[LocalParkId],[CarNo],[CarType],[EnterParkTime],[EnterParkImage],[EnterParkType],[BoxId],[ChannelId],[DutyPersonal],[Remark],[IsDelete],[CreateTime],[ParkId])VALUES(@Id,@LocalParkId,@CarNo,@CarType,@EnterParkTime,@EnterParkImage,@EnterParkType,@BoxId,@ChannelId,@DutyPersonal,@Remark,@IsDelete,@CreateTime,@ParkId),报告的异常是:INSERT 语句与 FOREIGN KEY 约束"FK_EnterParkRecord_Channel"冲突。该冲突发生于数据库"Parking"，表"dbo.Channel", column 'Id'。
+语句已终止。
+
+当前时间:2017/7/18 19:57:01,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:将截断字符串或二进制数据。
+语句已终止。
+
+当前时间:2017/7/18 20:17:14,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:将截断字符串或二进制数据。
+语句已终止。
+
+当前时间:2017/7/18 21:20:29,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:将截断字符串或二进制数据。
+语句已终止。
+
+当前时间:2017/7/18 21:33:10,数据访问层ExecuteNonQuery函数出现异常,执行的SQL指令是:INSERT INTO [Tb_ApiLog]([Lg_Url],[Lg_Type],[Lg_Title],[Lg_Text],[Lg_Time],[Lg_Token],[Lg_Parameter],[Lg_ip],[Lg_Bak],[Lg_state],[Lg_Version],[Lg_Platform],[Lg_Area],[Lg_TimeOut])VALUES(@Lg_Url,@Lg_Type,@Lg_Title,@Lg_Text,@Lg_Time,@Lg_Token,@Lg_Parameter,@Lg_ip,@Lg_Bak,@Lg_state,@Lg_Version,@Lg_Platform,@Lg_Area,@Lg_TimeOut),报告的异常是:将截断字符串或二进制数据。
+语句已终止。
+

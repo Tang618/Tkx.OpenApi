@@ -1,0 +1,7 @@
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Release\netcoreapp1.1\Tkx.Model.deps.json
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Release\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\bin\Release\netcoreapp1.1\Tkx.Model.pdb
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Release\netcoreapp1.1\Tkx.Model.csprojResolveAssemblyReference.cache
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Release\netcoreapp1.1\Tkx.Model.AssemblyInfo.cs
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Release\netcoreapp1.1\Tkx.Model.dll
+E:\deepblue\04 代码管理\停开心一期\Tkx.WebApi\Tkx.Model\obj\Release\netcoreapp1.1\Tkx.Model.pdb
